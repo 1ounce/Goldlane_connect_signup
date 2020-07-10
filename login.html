@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LogIn</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/ip.js"></script>
+</head>
+<body>
+	<div class="container top" style="margin-top:4%;">
+
+		<div class="row text-center">
+			<div class="col-md-6 col-lg-6 col-12 text-center">
+				<img src="img/logo.png"><br><br>
+				<h3 class="main_2r">Create an Account</h3>
+				<img src="img/main_img.png" style="max-width: 60%; max-height: 80%;">
+				<h3 class="main_2" style="font-size: 20px; ">Login to your Account</h3> 
+				<h3 class="main_3" style="font-size: 15px; color: #AAA6BC; margin-top: 15px;" >We believe that language shouldn’t hinder anyone’s <br> business prospects. That is why we have integrated</h3>
+			</div>
+
+			<div class="col-md-6 col-lg-6 col-12 text-center h">
+				<div class="signup_step1">
+					<h4>Your ID</h4>
+				<img src="img/dot.png" class="img-fluid"> 
+				
+			    <p id="res1" style="margin-left:-20%;" class="res_1">Enter Phone Number</p>
+			   
+				<input type="text" name="phoneno" id="phn" class="inp_1" style="margin-top: -10px"> <br>
+				<p style="text-align: center; color: red; display: none;" id="valid_phn_no">[Enter valid mobile number]</p>
+			
+				<p id="res2" style="margin-left:4%; margin-top: 30px;" class="res_2">Enter Your Password</p>
+				
+				<input type="password" name="password" id="pass" class="inp_1" style="margin-top: -10px"> <br><br>
+				<p style="text-align: center; color: red; display: none;" id="err">[Invalid credentials]</p>
+				<p style="text-align: center; color: green; display: none;" id="sucess">[Successfull]</p>
+
+
+				
+	            <button id="btn" onclick="checkpass()" type="button" class="btn btn-primary" style="margin-top: 10px; outline : none !important; box-shadow: none;">Login <span id="load_icon" style="font-size: 8px; width: 18px; height:18px;"></span></button>
+
+	            <p style="margin-top: 15px; color: #AAA6BC;">Don't Have an Account? <a style="color:#E9B640; " href="signUp.html"><b>Signup</b></a></p>
+				
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+
+<script type="text/javascript" src="js/login.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
