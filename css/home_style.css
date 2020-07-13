@@ -268,6 +268,10 @@ border-radius: 10px !important;
 	top: -610%;
 	left: -52%;
 }
+#main_left3 {
+ display: none;
+}
+
 
 
 #main_right {
@@ -342,6 +346,11 @@ border-radius: 10px !important;
 	padding: 5px 4px 5px 4px !important;
 	border-radius: 2px !important;
 
+}
+
+
+.btn-primary {
+padding:15px 100px 15px 100px !important;
 }
 .plz {
 	display: none;
@@ -548,7 +557,7 @@ footer{
 	 			display: none;
 	 		}
 	 		#footer1 {
-	 			margin-right: 48%;
+	 			margin-right: 49%;
 	 		}
 	 		#footer2 {
 	 			margin-right: 15%;
