@@ -23,6 +23,9 @@ body {
 .bl {
 	padding: 0px 5px 0px 5px;
 }
+.log2{
+	display: none;
+}
 
 
 .cont {
@@ -146,7 +149,7 @@ body {
 
 .jus {
 	text-align: justify;
-	margin-left: 60px;
+	margin-left: 74px;
 	color: #3B325F;
 
 }
@@ -262,6 +265,13 @@ border-radius: 10px !important;
 	top: 350%;
 	right: -50%;
 }
+#main_left2 {
+    position: absolute;
+	width: 76%;
+	top: -610%;
+	left: -52%;
+}
+
 
 #main_right {
 	position: absolute;
@@ -330,10 +340,16 @@ border-radius: 10px !important;
 .plz {
 	display: none;
 }
+
 .hj {
 	display: initial;
 }
 
+.log2 {
+	display: initial;
+	margin-right: 60px;
+	width: 30%;
+}
 .nc {
 	flex-direction: column;
 }
