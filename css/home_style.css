@@ -7,6 +7,9 @@ body {
 
 
 }
+.mk {
+	padding: 0 110px 0 110px
+}
 .hj{
 	display: none;
 	width: 85%;
@@ -294,7 +297,9 @@ border-radius: 10px !important;
 	padding-left: 45px;
 
 }
-
+.mk {
+	padding: 0 0 0 0;
+}
 .navbar-toggler {
 
 	margin-right:40px;
@@ -310,10 +315,11 @@ border-radius: 10px !important;
 
 }
 .service-img {
-	
+
 	padding: 0 0 0px 0;
 	width: 150px;
 }
+
 
 .fc {
 	display: flex;
