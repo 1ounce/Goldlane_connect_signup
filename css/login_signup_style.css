@@ -211,12 +211,12 @@ margin-left: -30px;
 	}
 
 		#resph {
-				/*margin-left: -6%;*/
-				padding-right: 20%;
+				margin-left: -8%;
+				/*padding-right: 20%;*/
 		  }
 		  #k {
-			/*margin-right : 8%;*/
-			margin-left: -22%;
+			margin-right : 8%;
+			/*margin-left: -22%;*/
 		  }
 		  #del {
 			  margin-right: 41%;
@@ -224,35 +224,38 @@ margin-left: -30px;
 		  #resnm {
 			  margin-left:12%;
 		  }
-		 /* #k2 {
-			  margin-left:18%;
+		  #resca {
+		  	margin-left: 10%; 
+		  }
+		  #k2 {
+			  margin-left:8%;
 		  }
 		  #k3 {
-			  margin-left:18%;
-		  }*/
+			  margin-left:8%;
+		  }
 		  #k4{
 			  margin-left: 12%;
 		  }
 		  #vv11 {
-			  margin-left: 10%;
+			  margin-left: 12%;
 		  }
 		  #k5 {
 			  margin-left: 10%;
 		  }
 		  #k7 {
-			  padding-left: 6%;
+			  padding-left: 10%;
 		  }
 		  #k8 {
-			 margin-left: -10%;
+			 margin-left: -1%;
 		  }
 		  #ar {
 			  margin-left: 12%;
 		  }
 		  #tt {
-			  margin-left: -10%;
+			  margin-left: 1%;
 		  }
 		  #tt1 {
-			margin-left: -14%;
+			margin-left: 2%;
 		  }
 		#b1 {
 			width: auto;
