@@ -17,6 +17,9 @@ body {
 	margin-top: -20px; 
 	
 }
+#lk {
+	display: none;
+}
 .fl {
 	display: flex;
 }
@@ -268,7 +271,7 @@ border-radius: 10px !important;
 #main_left2 {
     position: absolute;
 	width: 76%;
-	top: -610%;
+	top: -780%;
 	left: -52%;
 }
 #main_left3 {
@@ -337,6 +340,13 @@ border-radius: 10px !important;
 
 .services {
 	padding: 10px 0px 10px 0px;
+}
+
+#lk {
+	display: initial;
+}
+#kl {
+	display: none;
 }
 
 
