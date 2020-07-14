@@ -271,7 +271,7 @@ border-radius: 10px !important;
 #main_left2 {
     position: absolute;
 	width: 76%;
-	top: -780%;
+	top: -790%;
 	left: -52%;
 }
 #main_left3 {
@@ -324,6 +324,7 @@ border-radius: 10px !important;
 	
 }
 .justify {
+	margin-top: -15px;
 	text-align: justify;
 	font-size: 13.5px;
 	margin-right: 20px;
@@ -337,9 +338,8 @@ border-radius: 10px !important;
 	width: 150px;
 }
 
-
 .services {
-	padding: 10px 0px 10px 0px;
+	padding: 10px 0px 40px 0px;
 }
 
 #lk {
