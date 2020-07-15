@@ -17,6 +17,14 @@ body {
 	margin-top: -20px; 
 	
 }
+
+#si {
+	margin-right: -60px;
+}
+#top {
+	margin-top: -15%;
+}
+
 #lk {
 	display: none;
 }
@@ -26,9 +34,8 @@ body {
 .bl {
 	padding: 0px 5px 0px 5px;
 }
-.log2{
-	display: none;
-}
+
+
 
 
 .cont {
@@ -97,7 +104,7 @@ body {
 
 .navbar-brand {
 	margin-top: 10px;
-	padding-left: 175px;
+	padding-left: 150px;
 
 }
 
@@ -156,13 +163,15 @@ body {
 
 .jus {
 	text-align: justify;
-	margin-left: 74px;
+	margin-left: 30px;
 	color: #3B325F;
+
 
 }
 
+
 .font_big {
-	font-size: 24.5px;
+	font-size: 22px;
 	line-height: 1.4;
 }
 
@@ -271,10 +280,11 @@ border-radius: 10px !important;
 }
 #main_left2 {
     position: absolute;
-	width: 76%;
-	top: -790%;
+	max-width: 76%;
+	top: -645%;
 	left: -52%;
 }
+
 #main_left3 {
  display: none;
 }
@@ -324,6 +334,7 @@ border-radius: 10px !important;
 	margin-top: 10px;
 	
 }
+
 .justify {
 	margin-top: -15px;
 	text-align: justify;
@@ -350,12 +361,137 @@ border-radius: 10px !important;
 	display: none;
 }
 
+.btn-warning{
+	padding: 5px 4px 5px 4px !important;
+	border-radius: 2px !important;
 
-/*.fc {
-	display: flex;
-	justify-content: space-around;
+}
 
-}*/
+
+.btn-primary {
+padding:15px 100px 15px 100px !important;
+}
+.plz {
+	display: none;
+}
+
+.hj {
+	display: initial;
+}
+#ser_res{
+	display: initial;
+}
+#service-img {
+	display: none;
+}
+
+.log2 {
+	margin-top:8%; 
+	display: initial;
+	margin-right: 60px;
+	width: 40%;
+}
+.nc {
+	flex-direction: column;
+}
+
+#machinary {
+	display: none;
+
+}
+
+.fl {
+	flex-direction: column-reverse;
+}
+.top {
+	margin-top: 30px;
+}
+.br {
+	display: initial;
+}
+.br1 {
+	display: none;
+}
+#main_left {
+	display: none;
+}
+#main_left1 {
+	display: none;
+}
+#left {
+	display: none;
+}
+.hj {
+	width: 100%;
+}
+.mr {
+margin-right: -65%;
+}
+
+img {
+	width: 100%;
+}
+.test {
+	width: 150%;
+	padding-right: 120px;
+
+}
+
+
+
+
+}
+/*mobile*/
+@media (min-width: 451px) and (max-width: 600px) {
+	.font_big {
+	font-size: 28px;
+	margin: 0 auto;
+}
+.jus {
+	margin-left: 65px;
+	margin-top: -20px;
+}
+.navbar-brand {
+	margin-top: 15px;
+	padding-left: 45px;
+
+}
+.mk {
+	padding: 0 0 0 0;
+}
+.navbar-toggler {
+
+	margin-right:40px;
+	margin-top: 10px;
+	
+}
+
+.justify {
+	margin-top: -15px;
+	text-align: justify;
+	font-size: 13.5px;
+	margin-right: 20px;
+	margin-left: 20px;
+	color: black;
+
+}
+.service-img {
+
+	padding: 0 0 0px 0;
+	width: 150px;
+}
+
+.services {
+	padding: 10px 0px 40px 0px;
+}
+
+#lk {
+	display: initial;
+}
+#kl {
+	display: none;
+}
+
 .btn-warning{
 	padding: 5px 4px 5px 4px !important;
 	border-radius: 2px !important;
@@ -417,9 +553,7 @@ padding:15px 100px 15px 100px !important;
 	display: none;
 }
 .hj {
-
-	width: 100%;
-
+	width: 105%;
 }
 .mr {
 margin-right: -65%;
@@ -437,29 +571,103 @@ img {
 
 
 
+
 }
-/*mobile*/
-@media (min-width: 451px) and (max-width: 600px) {
+
+
+
+@media (min-width: 601px) and (max-width: 775px) {
 	.font_big {
-	font-size: 28px;
+	font-size: 35px;
 	margin: 0 auto;
 }
 .jus {
-	margin-left:70px;
-	margin-top: -50px;
+
+	margin-left: 20px;
+	margin-top: -20px;
 }
 .navbar-brand {
 	margin-top: 15px;
-	padding-left: 50px;
+	padding-left: 45px;
+
+}
+.mk {
+	padding: 0 0 0 0;
+}
+.navbar-toggler {
+
+	margin-right:40px;
+	margin-top: 10px;
+	
+}
+
+#top {
+	margin-top: 13%;
+}
+
+.justify {
+	margin-top: -15px;
+	text-align: justify;
+	font-size: 13.5px;
+	margin-right: 20px;
+	margin-left: 20px;
+	color: black;
+
+}
+.service-img {
+
+	padding: 0 0 0px 0;
+	width: 150px;
+}
+
+.services {
+	padding: 10px 0px 40px 0px;
+}
+
+#lk {
+	display: initial;
+}
+#kl {
+	display: none;
+}
+
+.btn-warning{
+	padding: 5px 4px 5px 4px !important;
+	border-radius: 2px !important;
 
 }
 
-.navbar-toggler {
-	margin-right: 35px;
-	margin-top: 10px;
+
+.btn-primary {
+padding:15px 100px 15px 100px !important;
+}
+.plz {
+	display: none;
+}
+
+.hj {
+	display: initial;
+}
+/*#ser_res{
+	display: initial;
+}
+#service-img {
+	display: none;
+}*/
+
+.log2 {
+	margin-top:8%; 
+	display: initial;
+	margin-right: 60px;
+	width: 32%;
 }
 .nc {
 	flex-direction: column;
+}
+
+#machinary {
+	display: none;
+
 }
 
 .fl {
@@ -468,14 +676,11 @@ img {
 .top {
 	margin-top: 30px;
 }
-.br {
+/*.br {
 	display: initial;
-}
+}*/
 .br1 {
 	display: none;
-}
-.hj {
-	width: 110%;
 }
 #main_left {
 	display: none;
@@ -486,17 +691,168 @@ img {
 #left {
 	display: none;
 }
+.hj {
+	width: 115%;
+}
 .mr {
-	margin-left: 130px;
-}
-.col {
-	font-size: 1px;
+margin-right: -65%;
 }
 
+img {
+	width: 100%;
+}
+.test {
+	width: 150%;
+	padding-right: 120px;
+
+}
 
 
 }
 
+
+@media (min-width: 776px) and (max-width: 992px) {
+.font_big {
+	font-size: 35px;
+	margin: 0 auto;
+}
+.jus {
+
+	margin-left: 20px;
+	margin-top: -20px;
+}
+.navbar-brand {
+	margin-top: 15px;
+	padding-left: 45px;
+
+}
+.mk {
+	padding: 0 0 0 0;
+}
+.navbar-toggler {
+
+	margin-right:150px;
+	margin-top: 10px;
+	
+}
+
+#top {
+	margin-top: 13%;
+}
+#oo {
+	margin-top: 100px !important;
+}
+
+.justify {
+	margin-top: -15px;
+	text-align: justify;
+	font-size: 13.5px;
+	margin-right: 20px;
+	margin-left: 20px;
+	color: black;
+
+}
+.service-img {
+
+	padding: 0 0 0px 0;
+	width: 150px;
+}
+
+.services {
+	padding: 10px 0px 40px 0px;
+}
+
+#lk {
+	display: initial;
+}
+#kl {
+	display: none;
+}
+
+.btn-warning{
+	padding: 5px 4px 5px 4px !important;
+	border-radius: 2px !important;
+
+}
+
+
+.btn-primary {
+padding:15px 50px 15px 50px !important;
+}
+.plz {
+	display: none;
+}
+#si {
+	margin-right: 30px;
+}
+
+.hj {
+	display: initial;
+}
+/*#ser_res{
+	display: initial;
+}
+#service-img {
+	display: none;
+}*/
+
+.log2 {
+	margin-top:8%; 
+	display: initial;
+	margin-right: 280px;
+	width: 25%;
+}
+.nc {
+	flex-direction: column;
+}
+
+#machinary {
+	display: none;
+
+}
+
+.fl {
+	flex-direction: column-reverse;
+}
+.top {
+	margin-top: 30px;
+}
+/*.br {
+	display: initial;
+}*/
+.br1 {
+	display: none;
+}
+#main_left {
+	display: none;
+}
+#main_left1 {
+	display: none;
+}
+#left {
+	display: none;
+}
+.hj {
+	width: 115%;
+}
+
+
+img {
+	width: 100%;
+}
+.test {
+	width: 150%;
+	padding-right: 120px;
+
+}
+
+
+	 		
+
+
+
+
+}
 
 
 
@@ -592,5 +948,4 @@ footer{
 	 	
 
 	 	}
-	
 	
