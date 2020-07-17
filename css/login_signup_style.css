@@ -174,7 +174,9 @@ margin-left: -30px;
 	.main_3 {
 		display: none;
 	}
-	
+/*	.g {
+		margin-top: 2%;
+	}*/
 	.res_1 {
         margin-right: 10%;
 	}
@@ -197,7 +199,9 @@ margin-left: -30px;
     .res_2 {
     	margin-right: 35%;
     }
-
+ #g{
+ 	margin-top: 5px;
+ }
     .btn-primary {
 	width: 75% !important;
 	border-radius: 10px !important;
@@ -256,13 +260,13 @@ margin-left: -30px;
 			  margin-left:12%;
 		  }
 		  #resca {
-		  	margin-left: 6%; 
+		  	margin-left: 7%; 
 		  }
 		  #k2 {
-			  margin-left:2%;
+			  margin-left:5%;
 		  }
 		  #k3 {
-			  margin-left:5%;
+			  margin-left:7%;
 		  }
 		  #k4{
 			  margin-left: 12%;
@@ -291,10 +295,10 @@ margin-left: -30px;
 			  margin-left: 12%;
 		  }
 		  #tt {
-			  margin-left: -3%;
+			  margin-left: 2%;
 		  }
 		  #tt1 {
-			margin-left: -4%;
+			margin-left: 2%;
 		  }
 		#b1 {
 			width: auto;
