@@ -16,12 +16,13 @@
 					console.log("Something Wrong With the api Call"+err)
 				})
 				function result(data){
-					let options="";
+					let options=" ";
 					professions = data;
 					for(let i=0;i<professions.results.length;i++){
 					options += `<option value="${professions.results[i].id}">${professions.results[i].title}</option>`
 
 				}
+                    options += `<option value="other">Other</option>`
 				    document.getElementById("profession").innerHTML = options;
 				}
 
@@ -160,6 +161,16 @@
 			    }
 			    else{
 			    $("#show_company_input").hide()
+			    }
+			});
+
+
+			$('#profession').on('change',function(){
+			    if($(this).val()==="other"){
+			    $("#show_profession_input").show()
+			    }
+			    else{
+			    $("#show_profession_input").hide()
 			    }
 			});
 
