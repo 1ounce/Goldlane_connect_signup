@@ -1,3 +1,4 @@
+
 #kl {
 margin-left: -30px;
 	}
@@ -40,8 +41,14 @@ margin-left: -30px;
 .main_2 {
 	color: #3B325F;
 	margin-top: 20px;
-	
+	font-size: 10px;
+	font-family: 'Poppins', sans-serif;
+
 }
+
+
+
+
 .main_3 {
 	margin-top: 10px;
 	
@@ -101,7 +108,7 @@ margin-left: -30px;
 	padding: 5px;
 	margin-top: 5px;
 	width: 98%;
-
+   
 
 	
 }
@@ -134,6 +141,7 @@ margin-left: -30px;
 	
 	color: #3B325F; 
 	margin-top: 40px;
+	
 }
 
 .res_2 {
@@ -206,9 +214,9 @@ margin-left: -30px;
 
 
 	 }
-	.z {
+/*	.z {
 		display: none;
-	}
+	}*/
 
 		#resph {
 				margin-left: -8%;
@@ -225,16 +233,22 @@ margin-left: -30px;
 			  margin-left:12%;
 		  }
 		  #resca {
-		  	margin-left: 10%; 
+		  	margin-left: 6%; 
 		  }
 		  #k2 {
-			  margin-left:8%;
+			  margin-left:2%;
 		  }
 		  #k3 {
-			  margin-left:8%;
+			  margin-left:5%;
 		  }
 		  #k4{
 			  margin-left: 12%;
+		  }
+		   #k44{
+			 margin-left: 2%;
+		  }
+		   #k4_res{
+			 margin-left: 5%;
 		  }
 		  #vv11 {
 			  margin-left: 12%;
@@ -252,10 +266,10 @@ margin-left: -30px;
 			  margin-left: 12%;
 		  }
 		  #tt {
-			  margin-left: 1%;
+			  margin-left: -3%;
 		  }
 		  #tt1 {
-			margin-left: 2%;
+			margin-left: -4%;
 		  }
 		#b1 {
 			width: auto;

@@ -1,5 +1,8 @@
-	
-
+@keyframes fade-me-in {
+  0% {opacity:0;}
+  80% {opacity:0;}
+  100% {opacity:1;}
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -17,7 +20,11 @@ body {
 	margin-top: -20px; 
 	
 }
-
+.font {
+	font-family: Poppins; 
+	font-size: 13px;
+	color: #3B325F
+}
 #si {
 	margin-right: -60px;
 }
@@ -134,6 +141,7 @@ body {
 	border-radius: 9px !important;
 	color: white !important;
 	padding:10px 30px 10px 30px !important;
+	
 
 }
 .br {
@@ -165,13 +173,17 @@ body {
 	text-align: justify;
 	margin-left: 30px;
 	color: #3B325F;
+	font-family: Poppins;
+	
+    
 
 
 }
 
 
 .font_big {
-	font-size: 22px;
+	animation: fade-me-in 0.1s;
+	font-size: 20px;
 	line-height: 1.4;
 }
 
@@ -194,6 +206,8 @@ body {
 }
 
 .heading_color {
+	animation: fade-me-in 0.1s;
+	font-family: Poppins;
 	font-size: 24px;
 	color: #3B325F;
 	
@@ -239,6 +253,7 @@ body {
 .btn-primary {
 padding:10px 70px 10px 70px !important;
 border-radius: 10px !important;
+
 }
 
 #end {
@@ -313,7 +328,7 @@ border-radius: 10px !important;
 @media (min-width: 350px) and (max-width: 450px) {
 
 .font_big {
-	font-size: 24px;
+	font-size: 20px;
 	margin: 0 auto;
 }
 .jus {
@@ -336,6 +351,7 @@ border-radius: 10px !important;
 }
 
 .justify {
+
 	margin-top: -15px;
 	text-align: justify;
 	font-size: 13.5px;
@@ -444,7 +460,7 @@ img {
 /*mobile*/
 @media (min-width: 451px) and (max-width: 600px) {
 	.font_big {
-	font-size: 28px;
+	font-size: 22px;
 	margin: 0 auto;
 }
 .jus {
@@ -578,7 +594,7 @@ img {
 
 @media (min-width: 601px) and (max-width: 775px) {
 	.font_big {
-	font-size: 35px;
+	font-size: 23px;
 	margin: 0 auto;
 }
 .jus {
@@ -713,7 +729,7 @@ img {
 
 @media (min-width: 776px) and (max-width: 992px) {
 .font_big {
-	font-size: 35px;
+	font-size: 30px;
 	margin: 0 auto;
 }
 .jus {
@@ -948,4 +964,3 @@ footer{
 	 	
 
 	 	}
-	

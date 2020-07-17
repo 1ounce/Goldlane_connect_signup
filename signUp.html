@@ -1,10 +1,10 @@
 
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title>SignUp</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
 	<link rel="stylesheet" type="text/css" href="css/login_signup_style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,7 +35,7 @@
 					<h4>Your ID</h4>
 				<img src="img/dot.png" class="img-fluid"> 
 				
-				<p style="margin-right:16%;" id="resph" class="res_1">Enter Phone Number</p> 				
+				<p style="margin-right:16%; font-family: 'Poppins', sans-serif; font-size: 14px;" id="resph" class="res_1">Enter Phone Number</p> 				
 				<input type="text" id="phn" name="phone" class="inp_1" style="margin-top: -10px;">
 				<span style="font-size: 8px; width: 15px; height: 15px; margin-left: -25px;" id="load_icon"></span><br>
 				<p id="check_valid_no" style="color: red; margin-left: 10px; display: none;">[Enter valid mobile number]</p>
@@ -43,14 +43,14 @@
 			<div id="otp1"> 
 				<button  id="send_otp" onclick="otp_send()" style="margin-top: 20px; background-color: #808080 !important; margin-left: 5%;  padding-right: 20px; display: none;" type="button" class="btn btn-primary">Send OTP</button>
 				<div id="reguser" style="display: none;">
-					<p id="k" style="color: #3B325F; margin-top: 28px; padding-right:16%;">Enter Your Password</p>
+					<p id="k" style="color: #3B325F; margin-top: 28px; padding-right:16%; font-family: 'Poppins', sans-serif; font-size: 14px;">Enter Your Password</p>
 					<input type="password" name="password" id="user_password"  class="inp_1" style=" margin-top: -10px; margin-left: 25px;"> <br>
 					<p id="invalid_details" style="color: red; text-align: center;">[Invalid credentials]</p>
 				    <button onclick="checkpass()" id="login_check" style="margin-top: 30px; outline : none !important; box-shadow: none;  margin-left: 5%; padding-right: 20px; " type="button" class="btn btn-primary">Proceed <span id="load_icon1" style="font-size: 8px; width: 18px; height:18px;"></span></button>
 				</div>
 			</div> <br>
 			<div id="otp_field" style="display: none;">
-				<p id="del" style="padding-right:5%; " class="res_2">Enter OTP</p>
+				<p id="del" style="padding-right:5%; font-family: 'Poppins', sans-serif; font-size: 14px;" class="res_2">Enter OTP</p>
 				<div style="margin-left: 25px; margin-top: -10px; ">
 				<input id="inp_otp1" type="text"  maxlength="1" name="id1" class="inp_2 otp_focus">
 				<input id="inp_otp2" type="text"  maxlength="1" name="id2" class="inp_2 otp_focus ">
@@ -85,25 +85,36 @@
 				<img src="img/dot1.png" class="img-fluid"> 
 				<div class="row">
 					<div class="col-md-6">
-						<span id="resca" style="color: #3B325F; margin-right:50%;">Choose Category</span>
-							<select id="profession" name="profession_inp"  class="inp1_12"></select>
+						<span id="resca" style="color: #3B325F; margin-right:50%; font-family: 'Poppins', sans-serif; font-size: 14px;">Choose Category</span>
+							<select id="profession" name="profession_inp"  class="inp1_12">
+								<option value="10">Freelancer</option>
+							</select>
 					</div>
 					<div class="col-md-6">
-						<span id="resnm" style="color: #3B325F; margin-right: 80%;">Name</span>
+						<span id="resnm" style="color: #3B325F; margin-right: 80%; font-family: 'Poppins', sans-serif; font-size: 14px;">Name</span>
 						<input type="text" name="username" id="username"  class="inp1_12">
 						<h6 style="color: red; font-size: small; text-align: left;" id="validaion_err_name">[Name is required]</h6>
 					
 					</div>
 				</div>
 
+				<div class="row" id="show_profession_input" style="margin-top: 8px; display: none;">
+					<div class="col-md-12">
+						<span id="k4" style="color: #3B325F; margin-right: 76%; font-family: 'Poppins', sans-serif; font-size: 14px;">Enter Profession</span>
+						<input type="text" name="profession" id="profession"   class="inp1_12" >
+						
+					</div>
+					
+				</div>
+
 				<div class="row" style="margin-top: 8px;">
 					<div class="col-md-6">
-						<span id="k2" style="color: #3B325F; margin-right: 50%;">Company Email</span>
+						<span id="k2" style="color: #3B325F; margin-right: 50%; font-family: 'Poppins', sans-serif; font-size: 14px;">Company Email</span>
 						<input type="text" name="email" id="email"   class="inp1_12">
 						<h6 style="color: red;font-size: small; text-align: left;" id="validaion_err_email">[Enter valid email]</h6>
 					</div>
 					<div class="col-md-6">
-						<span id="k3" style="color: #3B325F; margin-right: 50%;">Company Name</span>
+						<span id="k3" style="color: #3B325F; margin-right: 50%; font-family: 'Poppins', sans-serif; font-size: 14px;">Company Name</span>
 						<select type="text" name="company_name" id="company_name"  class="inp1_12">
 							
 							<option value="1">Freelancer</option>
@@ -113,9 +124,11 @@
 					</div>
 				</div>
 
+
+
 				<div class="row" id="show_company_input" style="margin-top: 8px; display: none;">
 					<div class="col-md-12">
-						<span id="k44" style="color: #3B325F; margin-right:77%;">Company Name</span>
+						<span id="k44" style="color: #3B325F; margin-right:77%; font-family: 'Poppins', sans-serif; font-size: 14px;">Company Name</span>
 						<input type="text" name="cpp" id="company_name"   class="inp1_12" >
 					</div>
 
@@ -123,7 +136,7 @@
 
 				<div class="row" style="margin-top: 8px;">
 					<div class="col-md-12">
-						<span id="k4" style="color: #3B325F; margin-right:88%;">Address</span>
+						<span id="k4" style="color: #3B325F; margin-right:88%; font-family: 'Poppins', sans-serif; font-size: 14px;">Address</span>
 						<input type="text" name="address" id="address"   class="inp1_12" >
 						<h6 style="color: red; font-size: small; text-align: left;" id="validaion_err_address">[Address is required]</h6>
 					</div>
@@ -134,11 +147,11 @@
 
 				<div class="row" style="margin-top: 8px;">
 					<div class="col-md-6">
-						<span id="vv11"  style="color: #3B325F; margin-right: 75%;">Pincode</span>
+						<span id="vv11"  style="color: #3B325F; margin-right: 75%; font-family: 'Poppins', sans-serif; font-size: 14px;">Pincode</span>
 						<input type="text" name="pincode" id="pincode"  class="inp1_12">
 					</div>
 					<div class="col-md-6">
-						<span id="k5" style="color: #3B325F; margin-right: 78%;">State</span>
+						<span id="k5" style="color: #3B325F; margin-right: 78%; font-family: 'Poppins', sans-serif; font-size: 14px;">State</span>
 						<input type="text" id="state" name="state" readonly  class="inp1_12">
 					</div>
 				</div>
@@ -147,13 +160,13 @@
 				
 				<div class="row pass_hide" style="margin-top: 8px;">
 					<div class="col-md-6">
-						<span id="k7" style="color: #3B325F; margin-right: 69%;">Password</span>
+						<span id="k7" style="color: #3B325F; margin-right: 69%; font-family: 'Poppins', sans-serif; font-size: 14px;">Password</span>
 						<input type="password" name="password" id="pass1" class="inp1_12">
 						<h6 style="color: red; font-size: small; text-align: left;" id="validaion_err_pwd1">[Should contain 8 char and 1 letter and one number and one special character]</h6>
 
 					</div>
 					<div class="col-md-6">
-						<span id="k8" style="color: #3B325F; margin-right:40%;">Confirm Password</span><span id="pwd_tick_icon"><i class="fa fa-check-square" style="font-size:16px; color: green;"></i></span>
+						<span id="k8" style="color: #3B325F; margin-right:40%; font-family: 'Poppins', sans-serif; font-size: 14px;">Confirm Password</span><span id="pwd_tick_icon"><i class="fa fa-check-square" style="font-size:16px; color: green;"></i></span>
 						<input type="password" name="id" id="pass2"  class="inp1_12">
 						 <span id="kl" toggle="#password-field" class="fa fa-fw fa-eye field_icon toggle-password" ></span>
 						 <h6 style="color: red; font-size: small; text-align: left; " id="validaion_err_pwd2">[Password didt match]</h6>
@@ -163,7 +176,7 @@
 				</div>
 				<div class="row" style="margin-top: 8px;">
 					<div class="col-md-12">
-						<span id="ar" style="color: #3B325F; margin-right:91%;">Area</span>
+						<span id="ar" style="color: #3B325F; margin-right:91%; font-family: 'Poppins', sans-serif; font-size: 14px;">Area</span>
 							<select id="area" name="area"  class="inp1_12"></select><span id="animation" style="font-size: 8px; width:15px; height:15px; margin-left: -15px;"></span>
 					</div>
 
@@ -179,11 +192,11 @@
 				<img src="img/dot2.png" class="img-fluid"> 
 					<div class="row" style="margin-top: 30px;">
 							<div class="col-md-6">
-								<span id="tt" style="color: #3B325F; margin-right:40%;">Add Title <span style="font-size: small;">(Optional)</span></span>
+								<span id="tt" style="color: #3B325F; margin-right:40%; font-family: 'Poppins', sans-serif; font-size: 14px;">Add Title <span style="font-size: small;">(Optional)</span></span>
 									<input type="text" id="title" required name="title" class="inp1_12">
 							</div>
 							<div class="col-md-6">
-								<span id="k4" style="color: #3B325F; margin-right:54%;">Profile image</span>
+								<span id="k44" style="color: #3B325F; margin-right:54%; font-family: 'Poppins', sans-serif; font-size: 14px;">Profile image</span>
 								<input type="file" name="avatar" id="profile_image"  class="inp1_12">
 								<!-- <button class="nh" type="submit">Browse</button> -->
 							</div>
@@ -191,16 +204,16 @@
 
 					<div class="row" style="margin-top: 30px;">
 						<div class="col-md-6 z">
-							<span style="color: #3B325F; margin-right:43%;">Work Description</span>
+							<span style="color: #3B325F; margin-right:43%; font-family: 'Poppins', sans-serif; font-size: 14px;">Work Description</span>
 							<!-- <input type="textarea" name="work_decp" id="wrkdesp" required  style="width: 95%; height: 80%;" class="inp1_12 "> -->
-							<textarea  name="work_decp" id="wrkdesp" required  style="width: 95%; height: 80%;" class="inp1_12 "></textarea>
+							<textarea  name="work_decp" id="wrkdesp" required"  class="inp1_12"></textarea>
 					    </div>
 					    <div class="col-md-6">
-							<span id="tt1" style="color: #3B325F; margin-right:31%;">Cover image <span style="font-size: small;">(Optional)</span></span>
+							<span id="tt1" style="color: #3B325F; margin-right:31%; font-family: 'Poppins', sans-serif; font-size: 14px;">Cover image <span style="font-size: small;">(Optional)</span></span>
 							<input type="file" name="cover_image" id="cover_image"  class="inp1_12">
 							<!-- <button class="nh" type="submit">Browse</button> -->
 		                        <div style="margin-top: 10px;">
-									<span id="k4" style="color: #3B325F; margin-right: 60%;">Work Proof</span>
+									<span id="k4_res" style="color: #3B325F; margin-right: 60%; font-family: 'Poppins', sans-serif; font-size: 14px;">Work Proof</span>
 									<input type="file" name="work_proff" id="work_proff"  class="inp1_12">
 									<!-- <button class="nh" type="submit">Browse</button> -->
 								</div>
