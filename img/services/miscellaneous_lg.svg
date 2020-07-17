@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="269.936" height="279.799" viewBox="0 0 269.936 279.799">
+  <g id="miscellaneous_lg" transform="translate(-349.093 -3741.199)">
+    <text id="Machinery" transform="translate(490 4012.998)" fill="#3b325f" font-size="22" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-60.731" y="0">Machinery</tspan></text>
+    <g id="Group_334" data-name="Group 334" transform="translate(350 3741.974)">
+      <g id="Shape" transform="translate(99.824 0) rotate(40)" opacity="0.11" style="isolation: isolate">
+        <path id="Path_15" data-name="Path 15" d="M4.85,76.1c-10.571,22.949-3.289,52.545,16.266,66.105,10.761,7.462,23.584,8.776,34.847,3.571l.03-.019q1.225-.566,2.416-1.23c7.833-3.627,34.024-12.981,70.377,3.218,5.566,2.481,9.847,3.752,13.086,4.091,32.835,12.309,66.767-9.275,75.788-48.208,7.6-32.812-4.893-68.443-30.141-85.944-5.295-3.67-10.717-7.7-16.322-9.4,0,0-72.224-38.947-154.309,52.014A43.5,43.5,0,0,0,4.85,76.1Z" transform="translate(0 0)" fill="#accaf0" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+      </g>
+      <path id="Shape-2" data-name="Shape" stroke="#accaf0" d="M.452,98.172C-2.781,121.727,11.663,148,32.713,156.866c11.584,4.876,23.349,3.593,31.971-3.487l.022-.024q.937-.77,1.819-1.625C72.52,146.8,93.31,132.91,130.02,140.95c5.621,1.232,9.772,1.582,12.746,1.264,32.532,5.087,56.92-21.768,54.473-59.982-2.063-32.206-22.769-63.111-49.947-74.546-5.7-2.4-11.609-5.111-17.054-5.6,0,0-74.751-22.3-123.325,78.934A38.6,38.6,0,0,0,.452,98.172Z" fill="none" transform="translate(196.917 240.998) rotate(-159)" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5" opacity="0.97" style="isolation: isolate"/>
+      <rect id="Rectangle_2143" data-name="Rectangle 2143" width="10.355" height="10.355" transform="matrix(-0.643, 0.766, -0.766, -0.643, 65.617, 31.516)" fill="none" stroke="#3c58a4" stroke-miterlimit="10" stroke-width="1" opacity="0.31"/>
+      <ellipse id="Ellipse_72" data-name="Ellipse 72" cx="5.59" cy="5.599" rx="5.59" ry="5.599" transform="translate(89.656 218.439)" fill="none" stroke="#3c58a4" stroke-miterlimit="10" stroke-width="1" opacity="0.31"/>
+    </g>
+    <g id="Group_336" data-name="Group 336" transform="translate(-9384.019 575.293)">
+      <rect id="Rectangle_2230" data-name="Rectangle 2230" width="8.671" height="18.112" transform="translate(9820.873 3289.882) rotate(28.451)" stroke-width="4.159" stroke="#4070f4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <rect id="Rectangle_2231" data-name="Rectangle 2231" width="37.552" height="65.353" rx="12" transform="translate(9880.229 3289.718)" fill="#fff" stroke="#4070f4" stroke-miterlimit="10" stroke-width="4.159"/>
+      <path id="Path_605" data-name="Path 605" d="M9893.735,3319.294l-72.722-24.274a14.662,14.662,0,0,1-9.82-18.192l2.3-7.689a14.662,14.662,0,0,1,18.192-9.821l74.117,19.606a14.661,14.661,0,0,1,9.819,18.193l-3.691,12.358A14.662,14.662,0,0,1,9893.735,3319.294Z" transform="translate(2.961 0)" fill="#fff" stroke="#4070f4" stroke-miterlimit="10" stroke-width="4.159"/>
+      <circle id="Ellipse_90" data-name="Ellipse 90" cx="10.892" cy="10.892" r="10.892" transform="translate(9884.429 3286.421)" fill="#fff" stroke="#e9b640" stroke-miterlimit="10" stroke-width="4.1"/>
+      <circle id="Ellipse_91" data-name="Ellipse 91" cx="8.397" cy="8.397" r="8.397" transform="translate(9823.447 3269.297)" fill="#fff" stroke="#e9b640" stroke-miterlimit="10" stroke-width="4.1"/>
+      <rect id="Rectangle_2232" data-name="Rectangle 2232" width="114.586" height="14.516" rx="3.537" transform="translate(9810.89 3346.543)" fill="#fff" stroke="#4070f4" stroke-miterlimit="10" stroke-width="4.159"/>
+      <path id="Path_606" data-name="Path 606" d="M9808.411,3319.7l11.126-4.565-.881-12.869" transform="translate(2.487 9.505)" fill="none" stroke="#4070f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.159"/>
+      <path id="Path_607" data-name="Path 607" d="M9800.751,3315.448l-2.252-11.814,11.262-6.289" transform="translate(0.325 8.432)" fill="none" stroke="#4070f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.159"/>
+      <line id="Line_131" data-name="Line 131" x2="142.329" transform="translate(9797.019 3361.06)" fill="none" stroke="#4070f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.159"/>
+    </g>
+  </g>
+</svg>

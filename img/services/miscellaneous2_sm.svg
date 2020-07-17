@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="155.048" height="187.1" viewBox="0 0 155.048 187.1">
+  <g id="miscellaneous2_sm" transform="translate(-230.951 -3899.9)">
+    <text id="Coin_Packing" data-name="Coin Packing" transform="translate(311 4079)" fill="#3b325f" font-size="22" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-74.294" y="0">Coin Packing</tspan></text>
+    <g id="Group_2274" data-name="Group 2274" transform="translate(197.16 3968.225) rotate(-45)">
+      <g id="Shape" transform="translate(58.718 0) rotate(40)" opacity="0.11" style="isolation: isolate">
+        <path id="Path_15" data-name="Path 15" d="M2.853,44.765c-6.218,13.5-1.935,30.908,9.568,38.884a20.406,20.406,0,0,0,20.5,2.1l.018-.011q.72-.333,1.421-.724c4.608-2.134,20.013-7.636,41.4,1.893a26.773,26.773,0,0,0,7.7,2.406c19.314,7.24,39.274-5.455,44.579-28.356C132.5,41.657,125.153,20.7,110.3,10.4c-3.114-2.159-6.3-4.531-9.6-5.529,0,0-42.484-22.909-90.767,30.6A25.588,25.588,0,0,0,2.853,44.765Z" transform="translate(0 0)" fill="#accaf0" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+      </g>
+      <path id="Shape-2" data-name="Shape" stroke="#accaf0" d="M.266,57.746C-1.636,71.6,6.86,87.059,19.242,92.271c6.814,2.868,13.734,2.114,18.806-2.051l.013-.014q.551-.453,1.07-.956c3.526-2.9,15.756-11.07,37.349-6.342a24.594,24.594,0,0,0,7.5.744c19.136,2.992,33.481-12.8,32.042-35.282-1.213-18.944-13.393-37.123-29.38-43.849C83.287,3.11,79.811,1.515,76.608,1.227c0,0-43.97-13.119-72.542,46.43A22.705,22.705,0,0,0,.266,57.746Z" fill="none" transform="translate(115.83 141.759) rotate(-159)" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5" opacity="0.97" style="isolation: isolate"/>
+      <rect id="Rectangle_2143" data-name="Rectangle 2143" width="6.091" height="6.091" transform="matrix(-0.643, 0.766, -0.766, -0.643, 38.597, 18.538)" fill="none" stroke="#3c58a4" stroke-miterlimit="10" stroke-width="1" opacity="0.31"/>
+      <ellipse id="Ellipse_72" data-name="Ellipse 72" cx="3.288" cy="3.293" rx="3.288" ry="3.293" transform="translate(52.737 128.49)" fill="none" stroke="#3c58a4" stroke-miterlimit="10" stroke-width="1" opacity="0.31"/>
+    </g>
+    <g id="Group_2276" data-name="Group 2276" transform="translate(279.284 3946.265)">
+      <rect id="Rectangle_2237" data-name="Rectangle 2237" width="62.939" height="46.639" rx="7.616" fill="#fff" stroke="#4070f4" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="Group_347" data-name="Group 347" transform="translate(18.888 12.72)">
+        <path id="Path_174" data-name="Path 174" d="M9459.662,3354.769a92.7,92.7,0,0,1,12.522,1.505s-.132,4.679-.151,5.631c-.072,3.808-5.731,6.788-12.636,6.655s-12.445-3.328-12.372-7.136c.018-.932.156-5.707.156-5.707A95.312,95.312,0,0,1,9459.662,3354.769Z" transform="translate(-9447.022 -3347.6)" fill="#fff" stroke="#e9b640" stroke-miterlimit="10" stroke-width="3"/>
+        <ellipse id="Ellipse_315" data-name="Ellipse 315" cx="6.896" cy="12.506" rx="6.896" ry="12.506" transform="translate(0 13.79) rotate(-88.898)" fill="#fff" stroke="#e9b640" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

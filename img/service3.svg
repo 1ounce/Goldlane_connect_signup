@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170.336" height="178.008" viewBox="0 0 170.336 178.008">
+  <g id="insurance" transform="translate(-32.458 -1535.992)">
+    <text id="Insurance-2" data-name="Insurance" transform="translate(118 1706)" fill="#3b325f" font-size="22" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-57.233" y="0">Insurance</tspan></text>
+    <g id="Group_297" data-name="Group 297" transform="matrix(-0.998, 0.07, -0.07, -0.998, 207.175, 1692.267)">
+      <g id="Shape" transform="translate(62.591 0) rotate(40)" opacity="0.11" style="isolation: isolate">
+        <path id="Path_15" data-name="Path 15" d="M3.041,47.718C-3.587,62.107.979,80.664,13.24,89.167c6.747,4.679,14.787,5.5,21.85,2.239l.019-.012q.768-.355,1.515-.771c4.912-2.274,21.334-8.139,44.128,2.018a28.539,28.539,0,0,0,8.205,2.565c20.588,7.718,41.864-5.815,47.52-30.227,4.767-20.574-3.068-42.915-18.9-53.889-3.32-2.3-6.719-4.83-10.234-5.893,0,0-45.286-24.421-96.755,32.613A27.276,27.276,0,0,0,3.041,47.718Z" transform="translate(0 0)" fill="#accaf0" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+      </g>
+      <path id="Shape-2" data-name="Shape" stroke="#accaf0" d="M.284,61.555C-1.743,76.325,7.313,92.8,20.512,98.358c7.263,3.058,14.64,2.253,20.047-2.186l.014-.015q.587-.483,1.141-1.019c3.759-3.092,16.795-11.8,39.812-6.76a26.216,26.216,0,0,0,7.992.793c20.4,3.19,35.69-13.649,34.155-37.61C122.379,31.367,109.4,11.989,92.354,4.819c-3.573-1.5-7.279-3.2-10.693-3.511,0,0-46.87-13.985-77.327,49.493A24.2,24.2,0,0,0,.284,61.555Z" fill="none" transform="translate(123.47 151.11) rotate(-159)" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="5" opacity="0.97" style="isolation: isolate"/>
+      <rect id="Rectangle_2143" data-name="Rectangle 2143" width="6.493" height="6.493" transform="matrix(-0.643, 0.766, -0.766, -0.643, 41.143, 19.761)" fill="none" stroke="#3c58a4" stroke-miterlimit="10" stroke-width="1" opacity="0.31"/>
+      <ellipse id="Ellipse_72" data-name="Ellipse 72" cx="3.505" cy="3.51" rx="3.505" ry="3.51" transform="translate(56.216 136.965)" fill="none" stroke="#3c58a4" stroke-miterlimit="10" stroke-width="1" opacity="0.31"/>
+    </g>
+    <g id="Group_295" data-name="Group 295" transform="translate(87 1575.921)">
+      <path id="Union_8" data-name="Union 8" d="M0,14.332A86.722,86.722,0,0,0,30.28,0,86.7,86.7,0,0,0,60.559,14.332c-2.541,25.877-8.4,52.794-30.279,55.947C8.4,67.126,2.541,40.209,0,14.332Z" fill="#fff" stroke="#4070f4" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="Group_294" data-name="Group 294" transform="translate(12.959 20.445)">
+        <path id="Path_574" data-name="Path 574" d="M9707.407,2916.55h-14.93a1.128,1.128,0,0,1-1.1-1.359l2.038-9.783a1.128,1.128,0,0,1,1.1-.9h10.854a1.127,1.127,0,0,1,1.1.9l2.038,9.783A1.128,1.128,0,0,1,9707.407,2916.55Z" transform="translate(-9691.349 -2891.799)" fill="#fff" stroke="#e9b640" stroke-miterlimit="10" stroke-width="3"/>
+        <path id="Path_575" data-name="Path 575" d="M9732.124,2916.55h-14.93a1.129,1.129,0,0,1-1.1-1.359l2.038-9.783a1.128,1.128,0,0,1,1.1-.9h10.854a1.131,1.131,0,0,1,1.106.9l2.036,9.783A1.128,1.128,0,0,1,9732.124,2916.55Z" transform="translate(-9698.612 -2891.799)" fill="#fff" stroke="#e9b640" stroke-miterlimit="10" stroke-width="3"/>
+        <path id="Path_576" data-name="Path 576" d="M9719.685,2898.551h-14.93a1.129,1.129,0,0,1-1.1-1.36l2.037-9.783a1.13,1.13,0,0,1,1.106-.9h10.854a1.128,1.128,0,0,1,1.1.9l2.038,9.783A1.13,1.13,0,0,1,9719.685,2898.551Z" transform="translate(-9694.955 -2886.51)" fill="#fff" stroke="#e9b640" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

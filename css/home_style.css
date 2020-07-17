@@ -200,7 +200,7 @@ body {
 }
 
 .service-img {
-	width: 165px;
+	height:12vw;
 	
 }
 
@@ -341,7 +341,7 @@ border-radius: 10px !important;
 	font-size: 13.5px;
 	margin-right: 20px;
 	margin-left: 20px;
-	color: black;
+	color: #AAA6BC;
 
 }
 .service-img {
@@ -379,6 +379,7 @@ padding:15px 100px 15px 100px !important;
 	display: initial;
 }
 #ser_res{
+	width:28vw;
 	display: initial;
 }
 #service-img {
