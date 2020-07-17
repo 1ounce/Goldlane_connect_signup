@@ -345,9 +345,15 @@ function checkpass() {
         
 	    let phone = document.getElementById("phn").value;
 		let profession = document.getElementById("profession").value;
+		if(profession=="other"){
+			profession = document.getElementById("inp_profession").value;
+		}
 		let username = document.getElementById("username").value;
 		let email = document.getElementById("email").value;
 		let company_name = document.getElementById("company_name").value;
+		if(company_name=="0"){
+			company_name = document.getElementById("inp_company_name").value;
+		}
 		let address = document.getElementById("address").value;
 		let pincode = document.getElementById("pincode").value;
 		let pin_id = document.getElementById("area").value;
@@ -361,20 +367,20 @@ function checkpass() {
 		let cover_image = document.getElementById("cover_image").files[0];
 		let work_proof = document.getElementById("work_proff").files[0];
         
-  //       console.log(phone)
-		// console.log(profession)
-		// console.log(username)
-		// console.log(email)
-		// console.log(company_name)
-		// console.log(address)
-		// console.log(pincode)
-		// console.log(pin_id)
-		// console.log(password)
-		// console.log(title)
-		// console.log(work_description)
-		// console.log(profile_image)
-		// console.log(cover_image)
-		// console.log(work_proof)
+        console.log("phone:  "+phone)
+		console.log("profession:  "+profession)
+		console.log("username:  "+username)
+		console.log("email:  "+email)
+		console.log("company_name:  "+company_name)
+		console.log("address:  "+address)
+		console.log("pincode:  "+pincode)
+		console.log("pin_id:  "+pin_id)
+		console.log("password:  "+password)
+		console.log("title:  "+title)
+		console.log("work_description:  "+work_description)
+		console.log("profile_image:  "+profile_image)
+		console.log("cover_image:  "+cover_image)
+		console.log("work_proof:  "+work_proof)
 
 		var form = new FormData()
 		form.append("phone",phone)

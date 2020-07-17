@@ -80,6 +80,37 @@ body {
 	margin-top: 35px;
 }
 
+#link {
+	cursor: pointer;
+}
+
+#foo_btn {
+  margin-top:20px; 
+  font-size: 15px;
+   border-radius: 5px; 
+   background-color:#E9B640;
+    outline: none;
+    border: none;
+     color: white;
+      padding: 2px 40px;
+}
+
+#oo {
+	margin-top:90px;
+	 font-size: 15px;
+	  border-radius: 5px;
+	   background-color:#E9B640;
+	    outline: none;
+	    border: none; 
+	    color: white;
+	     padding: 8px 40px;
+}
+
+.fa-bars {
+	font-size: 25px;
+	 padding:4px; 
+	 color: #3B325F;
+}
 /*=========================================NAVBAR STYLING===================================================*/
 #nav-bar{
 	/*position: sticky;*/
@@ -90,6 +121,9 @@ body {
 
 .navbar-toggler {
 	margin-right: 15px;
+	border-radius: 8px; 
+	outline : none !important; 
+	box-shadow: none;"
 }
 
 .nav_logo{
@@ -129,10 +163,13 @@ body {
 }
 
 .nc {
+	
 	margin-top: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: baseline;
+	z-index: 1;
+	
 
 }
 
@@ -141,6 +178,8 @@ body {
 	border-radius: 9px !important;
 	color: white !important;
 	padding:10px 30px 10px 30px !important;
+	outline : none !important;
+    box-shadow: none;
 	
 
 }
@@ -232,6 +271,7 @@ body {
 }
 
 .fo {
+	
 	margin-top: 25px;
 }
 
@@ -343,10 +383,12 @@ border-radius: 10px !important;
 .mk {
 	padding: 0 0 0 0;
 }
+
+
 .navbar-toggler {
 
 	margin-right:40px;
-	margin-top: 10px;
+	margin-top: 40px;
 	
 }
 
